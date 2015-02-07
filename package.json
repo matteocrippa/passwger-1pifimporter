@@ -1,0 +1,32 @@
+{
+  "name": "passwger-1pifimporter",
+  "version": "0.0.1",
+  "description": "Passwger 1pif file format importer Poc",
+  "main": "import.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/passwger/passwger-1pifimporter.git"
+  },
+  "keywords": [
+    "1pif",
+    "1password",
+    "passwger",
+    "importer",
+    "poc"
+  ],
+  "author": "Matteo Crippa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/passwger/passwger-1pifimporter/issues"
+  },
+  "homepage": "https://github.com/passwger/passwger-1pifimporter",
+  "dependencies": {
+    "line-reader": "^0.2.4",
+    "lowdb": "git://github.com/matteocrippa/lowdb",
+    "node-uuid": "^1.4.2",
+    "underscore": "^1.7.0"
+  }
+}
